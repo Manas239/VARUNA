@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VARUNA Project Report</title>
+  <style>
+    :root {
+      --bg: #f4f9f7;
+      --paper: #ffffff;
+      --primary: #0f766e;
+      --primary-dark: #115e59;
+      --primary-soft: #dff8f1;
+      --accent: #15803d;
+      --ink: #10242d;
+      --muted: #5f6f78;
+      --line: #dfe9e6;
+      --warning: #9a5d00;
+      --danger: #9f1239;
+      --shadow: 0 12px 28px rgba(15, 118, 110, 0.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #eefaf5 0%, #f7fbfb 100%);
+      color: var(--ink);
+    }
+
+    .page {
+      max-width: 1100px;
+      margin: 40px auto;
+      background: var(--paper);
+      box-shadow: var(--shadow);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      overflow: hidden;
+    }
+
+    .header {
+      background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+      color: white;
+      padding: 48px 52px 32px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 42px;
+      letter-spacing: 0.5px;
+    }
+
+    .subtitle {
+      margin-top: 12px;
+      font-size: 18px;
+      opacity: 0.95;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 18px;
+      font-size: 13px;
+      opacity: 0.92;
+    }
+
+    .meta span {
+      background: rgba(255,255,255,0.12);
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+
+    .content {
+      padding: 36px 52px 52px;
+    }
+
+    .toc {
+      border: 1px solid var(--line);
+      background: #f9fdfc;
+      border-radius: 12px;
+      padding: 18px 22px;
+      margin-bottom: 28px;
+    }
+
+    .toc h2 {
+      margin: 0 0 12px;
+      font-size: 20px;
+      color: var(--primary-dark);
+    }
+
+    .toc ul {
+      margin: 0;
+      padding-left: 22px;
+      line-height: 1.9;
+      font-size: 15px;
+    }
+
+    .section {
+      margin-top: 28px;
+      page-break-inside: avoid;
+    }
+
+    .section h2 {
+      margin: 0 0 14px;
+      font-size: 26px;
+      color: var(--primary-dark);
+      border-bottom: 2px solid var(--primary-soft);
+      padding-bottom: 8px;
+    }
+
+    .section h3 {
+      margin: 20px 0 10px;
+      font-size: 18px;
+      color: var(--ink);
+    }
+
+    p, li {
+      font-size: 15px;
+      line-height: 1.75;
+      color: var(--ink);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      margin-top: 18px;
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fbfefd;
+      padding: 18px 20px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      font-size: 18px;
+      color: var(--primary-dark);
+    }
+
+    .pill {
+      display: inline-block;
+      background: var(--primary-soft);
+      color: var(--primary-dark);
+      border-radius: 999px;
+      padding: 7px 12px;
+      font-weight: 700;
+      font-size: 12px;
+      margin: 4px 6px 4px 0;
+    }
+
+    .highlight {
+      background: #fff9d9;
+      border-left: 4px solid #d4a72c;
+      padding: 12px 14px;
+      border-radius: 10px;
+      color: #4a3b07;
+      margin: 12px 0;
+      font-size: 14px;
+    }
+
+    .qa {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fbfffd;
+      padding: 18px 20px;
+      margin-top: 10px;
+    }
+
+    .qa strong {
+      color: var(--primary-dark);
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px 24px 30px;
+      color: var(--muted);
+      font-size: 12px;
+      border-top: 1px solid var(--line);
+      background: #fbfefd;
+    }
+
+    @media (max-width: 800px) {
+      .grid { grid-template-columns: 1fr; }
+      .header, .content { padding-left: 24px; padding-right: 24px; }
+      .header h1 { font-size: 34px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="header">
+      <h1>VARUNA</h1>
+      <div class="subtitle">Dynamic AI Traffic Flow Optimizer & Emergency Grid</div>
+      <div class="meta">
+        <span>Project Type: AI Traffic Management System</span>
+        <span>Frontend: React + Dashboard</span>
+        <span>Backend: FastAPI + Python</span>
+        <span>Core Purpose: Real-time accident detection and smart signal optimization</span>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="toc">
+        <h2>Table of Contents</h2>
+        <ul>
+          <li>1. Project Overview</li>
+          <li>2. Problem Statement and Business Value</li>
+          <li>3. System Architecture and Design</li>
+          <li>4. Workflow and Data Flow</li>
+          <li>5. Key Features and Functional Modules</li>
+          <li>6. Smart Signal Algorithms</li>
+          <li>7. Technology Stack and Requirements</li>
+          <li>8. Strengths and Limitations</li>
+          <li>9. Interview Questions with Answers</li>
+          <li>10. Conclusion</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>1. Project Overview</h2>
+        <p>
+          VARUNA is an intelligent traffic management platform developed to reduce congestion, detect accidents in real time, and prioritize emergency vehicles at signalized intersections. The system combines computer vision, AI-based object detection, and adaptive traffic control logic to improve road efficiency and emergency responsiveness.
+        </p>
+        <p>
+          The project is designed for smart city scenarios where live camera feeds are analyzed to detect traffic incidents, count vehicles, identify blocked lanes, and then adjust signal timings automatically. This makes it especially valuable in dense urban traffic areas where static signal timing often fails during accidents or unusually high traffic flow.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>2. Problem Statement and Business Value</h2>
+        <p>
+          Traditional traffic signals work on fixed schedules and do not adapt to accidents, fire hazards, or emergency vehicle movement. In busy cities, even a small accident can cause heavy congestion, delays in emergency response, and increased fuel consumption. VARUNA addresses this challenge by applying real-time detection and adaptive decision-making.
+        </p>
+        <div class="highlight">
+          The platform brings together accident detection, congestion analysis, emergency routing, and smart traffic control in one system that can actively respond to changing road conditions.
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Business Impact</h3>
+            <ul>
+              <li>Reduces congestion at busy intersections</li>
+              <li>Speeds up ambulance and fire vehicle movement</li>
+              <li>Improves road safety during accidents and hazards</li>
+              <li>Supports future smart city traffic infrastructure</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Target Use Case</h3>
+            <ul>
+              <li>Urban junctions and smart traffic lights</li>
+              <li>Emergency response corridors</li>
+              <li>High-density traffic zones</li>
+              <li>Parking and road monitoring demonstrations</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>3. System Architecture and Design</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Frontend Layer</h3>
+            <ul>
+              <li>React-based dashboard</li>
+              <li>Live traffic overview</li>
+              <li>Signal status visualization</li>
+              <li>Incident and event history</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Backend Layer</h3>
+            <ul>
+              <li>FastAPI server</li>
+              <li>WebSocket streaming</li>
+              <li>Video processing and detection control</li>
+              <li>Signal decision engine</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3>Core Architecture</h3>
+        <p>
+          The system follows a perception-decision-visualization flow. A camera stream feeds live frames into the backend, where YOLO models process the video for vehicles, accidents, fire, and emergency vehicles. These detections are converted into lane-level traffic information and passed to the signal controller, which chooses the best green-light pattern based on the incident scenario.
+        </p>
+
+        <div class="card" style="margin-top:16px;">
+          <h3>Technology Summary</h3>
+          <div>
+            <span class="pill">Python</span>
+            <span class="pill">FastAPI</span>
+            <span class="pill">OpenCV</span>
+            <span class="pill">YOLOv8</span>
+            <span class="pill">React</span>
+            <span class="pill">WebSockets</span>
+            <span class="pill">Signal Control</span>
+            <span class="pill">Smart Cities</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>4. Workflow and Data Flow</h2>
+        <p>
+          The workflow begins with a live video stream from a CCTV, mobile camera, or IP camera. The backend receives raw frames, runs object detection using a pre-trained/ custom YOLO model, filters low-quality detections, and tracks vehicles. The detection engine calculates vehicle count and identifies accident, fire, or emergency states. The signal logic then chooses which lane should receive priority based on the severity of the situation.
+        </p>
+        <ol>
+          <li>Camera stream captures real-time road footage.</li>
+          <li>YOLO model identifies vehicles, accidents, fire, or emergency vehicles.</li>
+          <li>Detected objects are validated using confidence thresholds and stabilization logic.</li>
+          <li>Traffic counts are mapped to lane-level inputs.</li>
+          <li>Smart controller selects a signal strategy based on incident priority.</li>
+          <li>Dashboard receives updated signal states and displays live traffic conditions.</li>
+        </ol>
+      </div>
+
+      <div class="section">
+        <h2>5. Key Features and Functional Modules</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Core Features</h3>
+            <ul>
+              <li>Real-time accident detection from camera input</li>
+              <li>Vehicle counting and lane density estimation</li>
+              <li>Emergency vehicle prioritization</li>
+              <li>Fire and severe incident handling</li>
+              <li>Multi-junction support from 2-way to 6-way</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Additional System Capabilities</h3>
+            <ul>
+              <li>Web dashboard with live signal visualizations</li>
+              <li>Telegram alert support for emergency notifications</li>
+              <li>Evidence archive for severe and fire incidents</li>
+              <li>Algorithm visualization for debugging and demo purposes</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>6. Smart Signal Algorithms</h2>
+        <p>
+          The heart of the project is the SmartSignalController. It models each junction as a set of lanes and uses adaptive logic to decide which lane should receive green time. The controller supports multiple junction layouts and adjusts behavior depending on the detected traffic and incident conditions.
+        </p>
+
+        <div class="card">
+          <h3>Algorithm Decision Hierarchy</h3>
+          <ul>
+            <li><strong>Fire Evacuation Mode:</strong> If a fire is detected, safe lanes are prioritized and conflicting directions are restricted.</li>
+            <li><strong>Multi-Accident Handling:</strong> If two or more accidents occur, the system selects the safest exit route.</li>
+            <li><strong>Accident Diversion:</strong> For a single blocked lane, the opposite direction gets priority to clear traffic.</li>
+            <li><strong>Adaptive Traffic Mode:</strong> In normal conditions, the system uses vehicle count to determine the highest-priority lane.</li>
+          </ul>
+        </div>
+
+        <h3>Core Logic</h3>
+        <p>
+          The algorithm uses lane counts, blocked state, and incident priority to compute signal timing. It supports weighted traffic priority, round-robin fallback, emergency corridor creation, and fallback handling for traffic jam conditions. This makes the signal logic robust across normal congestion and emergency scenarios.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>7. Technology Stack and Requirements</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Backend Stack</h3>
+            <ul>
+              <li>Python 3.8+</li>
+              <li>FastAPI</li>
+              <li>Uvicorn</li>
+              <li>OpenCV</li>
+              <li>Ultralytics YOLO</li>
+              <li>WebSockets</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Frontend Stack</h3>
+            <ul>
+              <li>React 18</li>
+              <li>JavaScript / JSX</li>
+              <li>Real-time dashboard updates</li>
+              <li>Monitoring of signal status</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3>Hardware and Environment</h3>
+        <p>
+          The project is designed to run on a standard machine with a stable camera feed and Python environment. It requires a minimum configuration capable of processing live frames and generating real-time signal decisions. The repository also expects model files such as <strong>accident_v2.pt</strong> to be placed in the backend model directory.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>8. Strengths and Limitations</h2>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Strengths</h3>
+            <ul>
+              <li>Strong concept for smart-city traffic optimization</li>
+              <li>Accident-aware traffic logic is practical and relevant</li>
+              <li>Real-time dashboard gives clear operational visibility</li>
+              <li>Supports multiple vehicle scenarios and intersection shapes</li>
+              <li>Useful for demo and hackathon presentations</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Limitations</h3>
+            <ul>
+              <li>Real-world deployment would need robust sensors and calibration</li>
+              <li>Model accuracy depends on environmental conditions and camera quality</li>
+              <li>Some logic is demonstration-oriented and may require additional field testing</li>
+              <li>Emergency route optimization can be extended with GPS-based vehicle tracking</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>9. Interview Questions with Answers</h2>
+
+        <div class="qa">
+          <p><strong>Q1:</strong> What is the main objective of VARUNA?</p>
+          <p><strong>A:</strong> VARUNA aims to optimize traffic flow using AI and real-time detection. It identifies accidents, congestion, and emergency vehicles, then controls traffic signals dynamically to reduce wait times and improve safety.</p>
+        </div>
+
+        <div class="qa">
+          <p><strong>Q2:</strong> Why is this project relevant in modern transportation systems?</p>
+          <p><strong>A:</strong> because real-world traffic is dynamic. Signals that work on static timing cannot respond to incidents or emergency requirements. VARUNA uses live data to adapt traffic control in real time, improving both efficiency and safety.</p>
+        </div>
+
+        <div class="qa">
+          <p><strong>Q3:</strong> What is the role of YOLO in the system?</p>
+          <p><strong>A:</strong> YOLO performs real-time object detection on the camera feed. It helps identify cars, accidents, fire, and emergency vehicles so the signal controller can respond appropriately.</p>
+        </div>
+
+        <div class="qa">
+          <p><strong>Q4:</strong> How does the system handle accident scenarios?</p>
+          <p><strong>A:</strong> When an accident is detected, the controller marks the affected lane as blocked and triggers accident diversion logic. It prioritizes the opposite direction or clears traffic through the best available route.</p>
+        </div>
+
+        <div class="qa">
+          <p><strong>Q5:</strong> What happens when an ambulance is detected?</p>
+          <p><strong>A:</strong> The emergency corridor mode is activated. The traffic system gives the ambulance lane priority by switching to a green corridor and restricting conflicting directions, helping emergency response move faster.</p>
+        </div>
+
+        <div class="qa">
+          <p><strong>Q6:</strong> Why support multiple junction types?</p>
+          <p><strong>A:</strong> because real roads are not all standard four-way intersections. VARUNA supports 2-way, 3-way, 4-way, 5-way, and 6-way junctions to make the logic adaptable to different environments.</p>
+        </div>
+
+        <div class="qa">
+          <p><strong>Q7:</strong> What are the biggest future improvements for the project?</p>
+          <p><strong>A:</strong> The next major improvements are YOLOv10 migration, more precise vehicle tracking, GPS-based emergency vehicle coordination, and smart congestion prediction models to prevent traffic build-up before it happens.</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>10. Conclusion</h2>
+        <p>
+          VARUNA is a strong demonstration of how AI and real-time analytics can be applied to public infrastructure. By combining intelligent detection with adaptive traffic signaling, the project addresses both congestion and emergency response challenges. It is highly relevant in the context of smart-city innovation and demonstrates the practical value of computer vision in transportation systems.
+        </p>
+        <p>
+          Although it is a prototype and continues to evolve, the project already shows a meaningful solution architecture, strong technical choices, and a clear user value proposition. With further model refinement and field deployment, VARUNA has strong potential to become a scalable smart traffic management platform.
+        </p>
+      </div>
+    </div>
+
+    <div class="footer">
+      VARUNA Project Report | Prepared as a print-ready presentation document
+    </div>
+  </div>
+</body>
+</html>
