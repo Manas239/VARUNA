@@ -1,0 +1,763 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R] /Count 7 >>
+endobj
+
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 10 0 R /Resources << /Font << /F1 11 0 R /F2 12 0 R >> >> >>
+endobj
+
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 13 0 R /Resources << /Font << /F1 11 0 R /F2 12 0 R >> >> >>
+endobj
+
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 14 0 R /Resources << /Font << /F1 11 0 R /F2 12 0 R >> >> >>
+endobj
+
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 15 0 R /Resources << /Font << /F1 11 0 R /F2 12 0 R >> >> >>
+endobj
+
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 16 0 R /Resources << /Font << /F1 11 0 R /F2 12 0 R >> >> >>
+endobj
+
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 17 0 R /Resources << /Font << /F1 11 0 R /F2 12 0 R >> >> >>
+endobj
+
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 18 0 R /Resources << /Font << /F1 11 0 R /F2 12 0 R >> >> >>
+endobj
+
+10 0 obj
+<< /Length 1850 >>
+stream
+BT
+/F2 28 Tf
+80 700 Td
+(VARUNA) Tj
+0 -40 Td
+/F1 14 Tf
+(Dynamic AI Traffic Flow Optimizer & Emergency Grid) Tj
+0 -50 Td
+/F2 16 Tf
+(Comprehensive Project Documentation) Tj
+0 -80 Td
+/F1 12 Tf
+(Project Overview) Tj
+0 -25 Td
+(An intelligent traffic management system designed to detect accidents) Tj
+0 -18 Td
+(in real-time using YOLOv8 deep learning models and automatically) Tj
+0 -18 Td
+(optimize traffic signals to reduce congestion and improve emergency) Tj
+0 -18 Td
+(response times. Built for multi-way intersections (2-6 way junctions)) Tj
+0 -25 Td
+(with smart signal control algorithms optimized for Indian traffic patterns.) Tj
+0 -50 Td
+/F2 12 Tf
+(Key Information) Tj
+0 -22 Td
+/F1 10 Tf
+(Repository: https://github.com/Manas239/VARUNA) Tj
+0 -16 Td
+(Built For: Indian Innovates Hackathon) Tj
+0 -16 Td
+(Demo Video: https://www.youtube.com/watch?v=X0kgA0yyBOk) Tj
+0 -16 Td
+(Status: Production Ready with YOLOv10 Integration In Progress) Tj
+ET
+endstream
+endobj
+
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+
+12 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+
+13 0 obj
+<< /Length 2200 >>
+stream
+BT
+/F2 18 Tf
+50 750 Td
+(TABLE OF CONTENTS) Tj
+0 -50 Td
+/F1 11 Tf
+(1. Project Overview & Vision........................... Page 1) Tj
+0 -25 Td
+(2. Architecture & System Design...................... Page 2) Tj
+0 -25 Td
+(3. Core Components & Features......................... Page 2) Tj
+0 -25 Td
+(4. AI Detection System.................................. Page 3) Tj
+0 -25 Td
+(5. Smart Signal Algorithms.............................. Page 3) Tj
+0 -25 Td
+(6. Technology Stack & Requirements................... Page 4) Tj
+0 -25 Td
+(7. System Installation & Setup.......................... Page 4) Tj
+0 -25 Td
+(8. Real-World Use Cases & Scenarios................... Page 5) Tj
+0 -25 Td
+(9. Future Enhancements & Roadmap..................... Page 5) Tj
+0 -25 Td
+(10. Interview Questions & Answers..................... Page 6) Tj
+0 -50 Td
+/F2 14 Tf
+(SECTION 1: PROJECT OVERVIEW & VISION) Tj
+0 -30 Td
+/F1 11 Tf
+(Problem Statement) Tj
+0 -15 Td
+(Traffic congestion in urban areas causes delays, economic losses,) Tj
+0 -15 Td
+(and impacts emergency response times. Traditional fixed-time traffic) Tj
+0 -15 Td
+(signals cannot adapt to real-time conditions or accidents.) Tj
+0 -25 Td
+(Solution Approach) Tj
+0 -15 Td
+(VARUNA uses computer vision and AI to detect traffic incidents and) Tj
+0 -15 Td
+(dynamically adjust signals. The system prioritizes emergency vehicles) Tj
+0 -15 Td
+(and diverts traffic during accidents.) Tj
+ET
+endstream
+endobj
+
+14 0 obj
+<< /Length 2600 >>
+stream
+BT
+/F2 18 Tf
+50 750 Td
+(SECTION 2: ARCHITECTURE & SYSTEM DESIGN) Tj
+0 -35 Td
+/F1 11 Tf
+(System Architecture - Three Layer Model) Tj
+0 -20 Td
+/F2 11 Tf
+(Layer 1: Perception/Detection (Backend)) Tj
+0 -18 Td
+/F1 10 Tf
+(- Video input from cameras/mobile streams) Tj
+0 -15 Td
+(- YOLOv8 deep learning models for object detection) Tj
+0 -15 Td
+(- Detection types: vehicles, accidents, fire, ambulances, damage) Tj
+0 -20 Td
+/F2 11 Tf
+(Layer 2: Decision Engine (Signal Algorithms)) Tj
+0 -18 Td
+/F1 10 Tf
+(- 5 core algorithms for different scenarios) Tj
+0 -15 Td
+(- Multi-junction support (2-6 way intersections)) Tj
+0 -15 Td
+(- Incident-aware traffic optimization) Tj
+0 -20 Td
+/F2 11 Tf
+(Layer 3: Visualization & Control (React Dashboard)) Tj
+0 -18 Td
+/F1 10 Tf
+(- Real-time live video feed with overlays) Tj
+0 -15 Td
+(- Signal status monitoring at multiple junctions) Tj
+0 -15 Td
+(- Interactive incident history and evidence storage) Tj
+0 -35 Td
+/F2 12 Tf
+(Data Flow) Tj
+0 -18 Td
+/F1 10 Tf
+(Camera -> YOLO Detection -> Signal Algorithm -> Traffic Lights) Tj
+0 -20 Td
+(-> Dashboard WebSocket Update -> User Visualization) Tj
+ET
+endstream
+endobj
+
+15 0 obj
+<< /Length 2800 >>
+stream
+BT
+/F2 18 Tf
+50 750 Td
+(SECTION 3: CORE COMPONENTS & FEATURES) Tj
+0 -35 Td
+/F1 11 Tf
+(1. AI Detection Models) Tj
+0 -18 Td
+/F2 10 Tf
+(YOLOv8 Based Custom Models:) Tj
+0 -16 Td
+/F1 10 Tf
+(- accident_v2.pt: Detects vehicle crashes and accidents) Tj
+0 -13 Td
+(- vehicle_counting.pt: Counts vehicles per lane) Tj
+0 -13 Td
+(- ambulance_detection.pt: Identifies emergency vehicles) Tj
+0 -13 Td
+(- fire_detection.pt: Detects fire and smoke) Tj
+0 -13 Td
+(- damage_assessment.pt: Analyzes vehicle damage) Tj
+0 -25 Td
+(2. Smart Signal Control Algorithms) Tj
+0 -16 Td
+(/F2 10 Tf
+(Five Core Algorithms:) Tj
+0 -15 Td
+/F1 10 Tf
+(ALG-1: Adaptive Traffic-Based - Uses vehicle count weighted) Tj
+0 -13 Td
+(priority for normal conditions with round-robin fallback) Tj
+0 -15 Td
+(ALG-2: Accident Diversion - Blocks affected lane and prioritizes) Tj
+0 -13 Td
+(opposite direction for traffic clearing) Tj
+0 -15 Td
+(ALG-3: Emergency Corridor - Creates green path for ambulance/fire) Tj
+0 -13 Td
+(vehicles with 60-second extended green time) Tj
+0 -15 Td
+(ALG-4: Fire Evacuation - Opens all safe lanes with short 5-second) Tj
+0 -13 Td
+(cycles for maximum throughput) Tj
+0 -15 Td
+(ALG-5: Multi-Accident Handling - Routes traffic through single safe) Tj
+0 -13 Td
+(exit when multiple accidents occur simultaneously) Tj
+0 -25 Td
+(3. Multi-Junction Support) Tj
+0 -16 Td
+/F1 10 Tf
+(Supports 2-way (T), 3-way (Y), 4-way (+), 5-way (*), 6-way junctions) Tj
+0 -13 Td
+(with configurable lane names and signal cycles) Tj
+ET
+endstream
+endobj
+
+16 0 obj
+<< /Length 2700 >>
+stream
+BT
+/F2 18 Tf
+50 750 Td
+(SECTION 4: AI DETECTION SYSTEM) Tj
+0 -35 Td
+/F1 11 Tf
+(Detection Pipeline) Tj
+0 -20 Td
+/F2 10 Tf
+(Step 1: Video Input) Tj
+0 -15 Td
+/F1 10 Tf
+(- Camera stream URL (e.g., IP camera or mobile camera app)) Tj
+0 -13 Td
+(- Optimized for 640x480 resolution at 30fps) Tj
+0 -18 Td
+/F2 10 Tf
+(Step 2: YOLO Processing) Tj
+0 -15 Td
+/F1 10 Tf
+(- Confidence threshold: 0.15 (flexible filtering downstream)) Tj
+0 -13 Td
+(- Object tracking enabled to maintain consistent IDs) Tj
+0 -13 Td
+(- Persistent tracking across frames) Tj
+0 -18 Td
+/F2 10 Tf
+(Step 3: Accuracy Filtering) Tj
+0 -15 Td
+/F1 10 Tf
+(- Fire: minimum 60% confidence + 20x20px box size) Tj
+0 -13 Td
+(- Accident: minimum 50% confidence) Tj
+0 -13 Td
+(- Vehicles: minimum 30% confidence) Tj
+0 -18 Td
+/F2 10 Tf
+(Step 4: Stabilization) Tj
+0 -15 Td
+/F1 10 Tf
+(- 12-frame history buffer prevents false positives) Tj
+0 -13 Td
+(- Requires 60% consistent detection across history) Tj
+0 -13 Td
+(- Reduces noise from single-frame glitches) Tj
+0 -25 Td
+(Demo Failsafes) Tj
+0 -18 Td
+/F1 10 Tf
+(- Motorcycles/suitcases mapped to accident for testing) Tj
+0 -13 Td
+(- Buses/trucks mapped to ambulance simulation) Tj
+ET
+endstream
+endobj
+
+17 0 obj
+<< /Length 3000 >>
+stream
+BT
+/F2 18 Tf
+50 750 Td
+(SECTION 5: SMART SIGNAL ALGORITHMS) Tj
+0 -35 Td
+/F1 11 Tf
+(Algorithm Decision Hierarchy) Tj
+0 -22 Td
+/F2 10 Tf
+(1. Check for Fire:) Tj
+0 -16 Td
+/F1 9 Tf
+(Use ALG-4 (Fire Evacuation) - Opens all safe lanes) Tj
+0 -20 Td
+/F2 10 Tf
+(2. Check for Multiple Accidents (2+):) Tj
+0 -16 Td
+/F1 9 Tf
+(Use ALG-5 (Multi-Accident) - Route through safest exit) Tj
+0 -20 Td
+/F2 10 Tf
+(3. Check for Single Accident:) Tj
+0 -16 Td
+/F1 9 Tf
+(Use ALG-2 (Accident Diversion) - Prioritize opposite lane) Tj
+0 -20 Td
+/F2 10 Tf
+(4. Normal Conditions:) Tj
+0 -16 Td
+/F1 9 Tf
+(Use ALG-1 (Adaptive) - Traffic-weighted decision) Tj
+0 -35 Td
+/F1 11 Tf
+(Cycle Timing) Tj
+0 -22 Td
+/F2 10 Tf
+(BASE_CYCLE_TIME:) Tj
+0 -16 Td
+/F1 9 Tf
+(8 seconds per lane during normal operations) Tj
+0 -20 Td
+/F2 10 Tf
+(EMERGENCY_CYCLE_TIME:) Tj
+0 -16 Td
+/F1 9 Tf
+(3 seconds for fast switching during incidents) Tj
+0 -35 Td
+/F1 11 Tf
+(Traffic Thresholds) Tj
+0 -22 Td
+/F1 9 Tf
+(LOW: <5 vehicles total -> Round-robin mode) Tj
+0 -16 Td
+(HIGH: >15 vehicles -> Weighted priority mode) Tj
+0 -16 Td
+(NORMAL: 5-15 vehicles -> Adaptive proportional) Tj
+ET
+endstream
+endobj
+
+18 0 obj
+<< /Length 4500 >>
+stream
+BT
+/F2 18 Tf
+50 750 Td
+(SECTION 6 & 7: TECHNOLOGY & INSTALLATION) Tj
+0 -35 Td
+/F1 11 Tf
+(Technology Stack) Tj
+0 -22 Td
+/F2 10 Tf
+(Backend:) Tj
+0 -16 Td
+/F1 9 Tf
+(- FastAPI (Python web framework)) Tj
+0 -13 Td
+(- Uvicorn (ASGI server)) Tj
+0 -13 Td
+(- YOLOv8 Ultralytics (object detection)) Tj
+0 -13 Td
+(- OpenCV (image processing)) Tj
+0 -13 Td
+(- WebSocket (real-time communication)) Tj
+0 -18 Td
+/F2 10 Tf
+(Frontend:) Tj
+0 -16 Td
+/F1 9 Tf
+(- React 18 (UI framework)) Tj
+0 -13 Td
+(- WebSocket client for live updates) Tj
+0 -13 Td
+(- Leaflet.js for GPS mapping) Tj
+0 -35 Td
+/F1 11 Tf
+(Requirements) Tj
+0 -22 Td
+/F1 9 Tf
+(- Python 3.8+ with pip package manager) Tj
+0 -13 Td
+(- Node.js 14+ with npm) Tj
+0 -13 Td
+(- Hardware: Intel i5+, 8GB RAM minimum) Tj
+0 -13 Td
+(- Stable internet connection) Tj
+0 -13 Td
+(- IP camera or mobile camera with HTTP stream) Tj
+0 -35 Td
+/F1 11 Tf
+(Quick Start Methods) Tj
+0 -22 Td
+/F2 10 Tf
+(Method 1: One-Click (Windows)) Tj
+0 -16 Td
+/F1 9 Tf
+(Double-click START_SYSTEM.bat) Tj
+0 -18 Td
+/F2 10 Tf
+(Method 2: Python Script) Tj
+0 -16 Td
+/F1 9 Tf
+(python start_system.py) Tj
+0 -18 Td
+/F2 10 Tf
+(Method 3: Manual Setup) Tj
+0 -16 Td
+/F1 9 Tf
+(Terminal 1: python main.py (Backend on :8000)) Tj
+0 -13 Td
+(Terminal 2: npm install && npm start (Frontend on :3000)) Tj
+0 -35 Td
+/F1 11 Tf
+(Configuration) Tj
+0 -22 Td
+/F1 9 Tf
+(Edit main.py:) Tj
+0 -13 Td
+(MOBILE_CAMERA_URL = "your_camera_stream")) Tj
+0 -13 Td
+(CAMERA_LAT/LON = your_location_coordinates) Tj
+0 -13 Td
+(TELEGRAM_BOT_TOKEN = for alert notifications) Tj
+ET
+endstream
+endobj
+
+19 0 obj
+<< /Length 3500 >>
+stream
+BT
+/F2 18 Tf
+50 750 Td
+(SECTION 8: REAL-WORLD USE CASES) Tj
+0 -35 Td
+/F1 11 Tf
+(Use Case 1: Highway Accident Response) Tj
+0 -20 Td
+/F2 10 Tf
+(Scenario:) Tj
+0 -16 Td
+/F1 9 Tf
+(Multi-vehicle collision on north lane of 4-way junction) Tj
+0 -20 Td
+/F2 10 Tf
+(System Response:) Tj
+0 -16 Td
+/F1 9 Tf
+(1. YOLO detects accident (80% confidence)) Tj
+0 -13 Td
+(2. Stabilizer confirms across 12 frames) Tj
+0 -13 Td
+(3. Incident marked as SEVERE_ACCIDENT) Tj
+0 -13 Td
+(4. ALG-2 activates: South (opposite) gets 30s green) Tj
+0 -13 Td
+(5. North blocked, traffic diverted) Tj
+0 -13 Td
+(6. Telegram alert + photo sent to authorities) Tj
+0 -25 Td
+(Use Case 2: Emergency Vehicle (Ambulance)) Tj
+0 -20 Td
+/F2 10 Tf
+(Scenario:) Tj
+0 -16 Td
+/F1 9 Tf
+(Ambulance approaching from west lane) Tj
+0 -20 Td
+/F2 10 Tf
+(System Response:) Tj
+0 -16 Td
+/F1 9 Tf
+(1. Ambulance detection via model) Tj
+0 -13 Td
+(2. ALG-3 activates: Emergency Corridor mode) Tj
+0 -13 Td
+(3. West lane gets 60-second extended green) Tj
+0 -13 Td
+(4. All other lanes locked RED) Tj
+0 -13 Td
+(5. Ambulance passes unobstructed) Tj
+0 -25 Td
+(Use Case 3: Heavy Traffic Congestion) Tj
+0 -20 Td
+/F2 10 Tf
+(Scenario:) Tj
+0 -16 Td
+/F1 9 Tf
+(25 vehicles in north lane, 5 in others during peak hours) Tj
+0 -20 Td
+/F2 10 Tf
+(System Response:) Tj
+0 -16 Td
+/F1 9 Tf
+(1. ALG-1 calculates weighted priority) Tj
+0 -13 Td
+(2. North lane gets extended green time (proportional)) Tj
+0 -13 Td
+(3. Reduces wait time at congested lane) Tj
+0 -13 Td
+(4. Maintains fairness with min/max constraints) Tj
+ET
+endstream
+endobj
+
+20 0 obj
+<< /Length 3200 >>
+stream
+BT
+/F2 18 Tf
+50 750 Td
+(SECTION 9: INTERVIEW QUESTIONS & ANSWERS) Tj
+0 -35 Td
+/F1 11 Tf
+(Q1: Explain the overall architecture of VARUNA.) Tj
+0 -20 Td
+/F2 9 Tf
+(Answer:) Tj
+0 -16 Td
+/F1 9 Tf
+(VARUNA has a 3-layer architecture: (1) Perception layer uses) Tj
+0 -13 Td
+(YOLOv8 models to detect vehicles, accidents, and emergencies from) Tj
+0 -13 Td
+(video streams; (2) Decision layer uses 5 smart algorithms to analyze) Tj
+0 -13 Td
+(traffic and select optimal signal timings; (3) Presentation layer is a) Tj
+0 -13 Td
+(React dashboard showing live feeds and signal status. FastAPI WebSocket) Tj
+0 -13 Td
+(connects all three layers in real-time.) Tj
+0 -25 Td
+(Q2: How does accident detection work and prevent false positives?) Tj
+0 -20 Td
+/F2 9 Tf
+(Answer:) Tj
+0 -16 Td
+/F1 9 Tf
+(1. YOLO detects objects with 15% base threshold; 2. Accuracy filter) Tj
+0 -13 Td
+(applies strict per-class thresholds (60% for fire, 50% for accidents,) Tj
+0 -13 Td
+(30% for vehicles); 3. Stabilizer buffer maintains 12-frame history and) Tj
+0 -13 Td
+(requires 60% consistency before triggering alerts. This triple filtering) Tj
+0 -13 Td
+(prevents single-frame noise from creating false alarms.) Tj
+0 -25 Td
+(Q3: What are the 5 core algorithms and when are they used?) Tj
+0 -20 Td
+/F2 9 Tf
+(Answer:) Tj
+0 -16 Td
+/F1 9 Tf
+(ALG-1 (Adaptive): Normal conditions, weighted by vehicle count. ALG-2) Tj
+0 -13 Td
+((Accident Diversion): Single accident blocks lane, opposite gets priority.) Tj
+0 -13 Td
+(ALG-3 (Emergency Corridor): Ambulance/Fire detected, 60s green in one) Tj
+0 -13 Td
+(direction. ALG-4 (Fire Evacuation): Fire scenario, all safe lanes open.) Tj
+0 -13 Td
+(ALG-5 (Multi-Accident): 2+ accidents, route through single safe exit.) Tj
+0 -13 Td
+(Decision hierarchy checks fire first, then multiple accidents, then) Tj
+0 -13 Td
+(single accident, then defaults to adaptive.) Tj
+ET
+endstream
+endobj
+
+21 0 obj
+<< /Length 3200 >>
+stream
+BT
+/F2 18 Tf
+50 750 Td
+(SECTION 9 CONTINUED: MORE QUESTIONS) Tj
+0 -35 Td
+/F1 11 Tf
+(Q4: How does the multi-junction support work?) Tj
+0 -20 Td
+/F2 9 Tf
+(Answer:) Tj
+0 -16 Td
+/F1 9 Tf
+(SmartSignalController initializes lane configs based on JunctionType) Tj
+0 -13 Td
+(enum: 2-way (T), 3-way (Y), 4-way (+), 5-way (*), 6-way complex.) Tj
+0 -13 Td
+(Each has its own lane names, blocking rules, and diversion logic.) Tj
+0 -13 Td
+(API endpoint /set-junction allows dynamic reconfiguration without) Tj
+0 -13 Td
+(restart. Algorithms automatically adapt to any junction topology.) Tj
+0 -25 Td
+(Q5: How does emergency response prioritize ambulances?) Tj
+0 -20 Td
+/F2 9 Tf
+(Answer:) Tj
+0 -16 Td
+/F1 9 Tf
+(Ambulance detection model identifies emergency vehicles. When detected,) Tj
+0 -13 Td
+(ALG-3 (Emergency Corridor) activates. It gives 60-second extended green) Tj
+0 -13 Td
+(to the lane containing ambulance, while all other lanes stay RED.) Tj
+0 -13 Td
+(EMERGENCY_CYCLE_TIME (3s) enables fast transitions if ambulance) Tj
+0 -13 Td
+(changes lanes. Dashboard shows "AMBULANCE DETECTED" with blue alert.) Tj
+0 -25 Td
+(Q6: What technologies were used and why?) Tj
+0 -20 Td
+/F2 9 Tf
+(Answer:) Tj
+0 -16 Td
+/F1 9 Tf
+(FastAPI chosen for high performance async WebSocket; YOLOv8 is) Tj
+0 -13 Td
+(state-of-art real-time detection; OpenCV for image preprocessing;) Tj
+0 -13 Td
+(React for responsive dashboard; Telegram for push alerts. Stack) Tj
+0 -13 Td
+(selected for low latency, scalability, and real-time requirements.) Tj
+ET
+endstream
+endobj
+
+22 0 obj
+<< /Length 3200 >>
+stream
+BT
+/F2 18 Tf
+50 750 Td
+(SECTION 9 CONTINUED: FINAL QUESTIONS) Tj
+0 -35 Td
+/F1 11 Tf
+(Q7: How would you handle network latency or camera failure?) Tj
+0 -20 Td
+/F2 9 Tf
+(Answer:) Tj
+0 -16 Td
+/F1 9 Tf
+(VideoStream class has automatic reconnection logic with 2s retry delay.) Tj
+0 -13 Td
+(If stream fails, it logs error but system continues running. For network) Tj
+0 -13 Td
+(latency, WebSocket async/await prevents blocking. Dashboard can queue) Tj
+0 -13 Td
+(updates. Future: implement Redis cache for offline signal decisions.) Tj
+0 -25 Td
+(Q8: What data is stored and how is evidence preserved?) Tj
+0 -20 Td
+/F2 9 Tf
+(Answer:) Tj
+0 -16 Td
+/F1 9 Tf
+(Evidence archive stores incident snapshots: minor, severe, and fire) Tj
+0 -13 Td
+(subdirectories with JPEG images timestamped as) Tj
+0 -13 Td
+(evidence_YYYYMMDD_HHMMSS_Status.jpg. Telegram also receives) Tj
+0 -13 Td
+(images + GPS coordinates. Dashboard can retrieve historical incidents.) Tj
+0 -13 Td
+(Thread-based background tasks prevent blocking on I/O.) Tj
+0 -25 Td
+(Q9: How do you test the system without real accidents?) Tj
+0 -20 Td
+/F2 9 Tf
+(Answer:) Tj
+0 -16 Td
+/F1 9 Tf
+(Demo Failsafes map test objects to incident types: motorcycles/suitcases) Tj
+0 -13 Td
+(-> accident, buses/trucks -> ambulance. Manual lane data endpoint allows) Tj
+0 -13 Td
+(injection of fake vehicle counts for algorithm testing. Dashboard simulates) Tj
+0 -13 Td
+(incidents without needing real hardware.) Tj
+0 -25 Td
+(Q10: What are the future roadmap and improvements?) Tj
+0 -20 Td
+/F2 9 Tf
+(Answer:) Tj
+0 -16 Td
+/F1 9 Tf
+(YOLOv10 migration for better accuracy. Advanced vehicle tracking for) Tj
+0 -13 Td
+(movement prediction. Congestion pattern ML models. Lane-level fine-grained) Tj
+0 -13 Td
+(optimization. GPS-based ambulance tracking. Integration with city traffic) Tj
+0 -13 Td
+(management systems for city-wide coordination.) Tj
+ET
+endstream
+endobj
+
+xref
+0 23
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000157 00000 n 
+0000000319 00000 n 
+0000000487 00000 n 
+0000000655 00000 n 
+0000000823 00000 n 
+0000000991 00000 n 
+0000001160 00000 n 
+0000001226 00000 n 
+0000003128 00000 n 
+0000003209 00000 n 
+0000003295 00000 n 
+0000005547 00000 n 
+0000008199 00000 n 
+0000011051 00000 n 
+0000013802 00000 n 
+0000016855 00000 n 
+0000020407 00000 n 
+0000023660 00000 n 
+0000026912 00000 n 
+0000030165 00000 n 
+trailer
+<< /Root 1 0 R /Size 23 >>
+startxref
+33418
+%%EOF
