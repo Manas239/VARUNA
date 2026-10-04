@@ -1,0 +1,48 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 635 >>
+stream
+BT
+/F1 22 Tf
+50 760 Td
+(VARUNA - Dynamic AI Traffic Flow Optimizer & Emergency Grid) Tj
+0 -28 Td
+/F1 14 Tf
+(Project overview) Tj
+0 -20 Td
+(Smart traffic management system for real-time accident detection, congestion analysis, emergency routing, and adaptive signal optimization.) Tj
+0 -20 Td
+(Features: - Accident detection using YOLO models; - Smart signal control; - Multi-junction support; - Real-time dashboard; - Emergency response prioritization.) Tj
+0 -20 Td
+(Requirements: Python 3.8+, Node.js 14+, OpenCV, FastAPI, YOLOv8, React 18) Tj
+0 -20 Td
+(Repository: https://github.com/Manas239/VARUNA) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000010 00000 n 
+0000000062 00000 n 
+0000000127 00000 n 
+0000000257 00000 n 
+0000000613 00000 n 
+0000000990 00000 n 
+trailer
+<< /Root 1 0 R /Size 6 >>
+startxref
+1087
+%%EOF
